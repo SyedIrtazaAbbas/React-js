@@ -1,0 +1,105 @@
+.abus{
+    justify-content: center;
+    margin-top: 90px;
+    display: flex;
+    font-size: 4.3rem;
+    font-family: 'Marcellus', serif;
+ text-transform: uppercase;
+
+    font-weight: lighter;
+}
+
+.aboutright{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.abright{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about{
+    padding-left: 50px;
+
+}
+.about h1{
+    width:600px;
+    font-size: 3.8rem;
+font-weight: normal;
+
+}
+
+.about p{
+    font-family: 'Jost', sans-serif;
+font-weight: normal;
+color: gray;
+margin-top: 15px;
+font-size: 1.09rem;
+
+    width:490px;
+
+}
+
+.aboutright p{
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+    color: gray;
+    font-size: 1.09rem;
+    letter-spacing: 1px;
+    width:570px;
+
+}
+.aboutright h1{
+    width:600px;
+    font-size: 3.8rem;
+font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aboulefts{
+    margin-top: 47px;
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboulefts p{
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+    color: gray;
+    font-size: 1.09rem;
+    letter-spacing: 1px;
+        width:580px;
+        padding-top: 15px;
+}
+
+.aboulefts h1{
+    font-size: 3.8rem;
+    font-weight: normal;
+    margin-top: 22px;
+}
+.aboutleft{
+    padding-right: 50px;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+}

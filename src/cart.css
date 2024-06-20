@@ -1,0 +1,230 @@
+
+
+
+
+
+
+
+
+.cardtitle{
+    font-size: 4rem;
+    font-weight: lighter;
+text-transform: capitalize;
+display: flex;
+font-family: 'Marcellus', serif;
+   align-items: center;
+   justify-content: flex-start;
+   margin-left: 300px;
+   margin-top: 60px;
+   margin-bottom: 100px;
+}
+
+
+.cardto{
+    display: flex;
+    align-items: center;
+}
+
+.cardcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardtotal{
+    display: flex;
+    
+    align-items: center;
+    content: "";
+    border-top: 1px rgb(182, 182, 182) solid;
+    width: 96%;
+    margin-top: 25px;
+}
+.cardh{
+    display: flex;
+margin-bottom: 14px;
+    min-width: 890px;
+}
+.cardh h2{
+    font-weight: normal;
+    color: rgb(119, 118, 118);
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.cardh .pro{
+   margin-right: 20px;
+}
+.cardto img{
+
+
+    height: 180px;
+}
+.carts{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.qu{
+    margin-left: 220px;
+    margin-right: 140px;
+}
+
+.carts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carts button{
+ width: 40px;
+ align-items: center;
+ height: 30px;
+ background-color: rgb(238, 236, 236);
+ border: none;
+}
+
+.carts span{
+  font-family: 'Jost', sans-serif;
+content: "";
+    margin-left: 10px;
+    margin-right: 10px;
+   
+    font-size: 1.1rem;
+
+}
+.carts button a{
+    font-size: 1.2rem;
+font-family: 'Marcellus', serif;
+    
+    font-weight: bold;
+}
+.cardname{
+    margin-left: 15px;
+    margin-right: 20px;
+    
+    
+}
+
+.cardname h1{
+font-weight: normal;
+text-transform: capitalize;
+font-family: 'Marcellus', serif;
+font-size: 1.3rem;
+
+}
+
+.cardname h4{
+font-weight: normal;
+font-size: 1.1rem;
+
+  font-family: 'Jost', sans-serif;
+
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+}
+
+.cart h4{
+  font-family: 'Jost', sans-serif;
+font-weight: normal;
+    margin-left: 90px;
+    font-size: 1.13rem;
+    
+    margin-right: 120px;
+}
+.cart a i{
+    font-size: 1.9rem;
+}
+.cars{
+    display: flex;
+    align-items: center;
+  
+
+}
+.cartdetils h1{
+    font-size: 1.9rem;
+  font-family: 'Jost', sans-serif;
+  text-transform: capitalize;
+  font-weight: normal;
+
+}
+
+.cartde{
+padding-top:30px;
+
+    content: "";
+    border-bottom: 1px rgb(228, 223, 223) solid;
+    width: 390px;
+}
+
+.cars{
+    
+    border-top: 1px rgb(228, 223, 223) solid;
+    width: 390px;
+    height: 50px;
+
+}
+
+.cars h2{
+    margin-right: 120px;
+}
+
+.cartbutton button{
+    align-items: center;
+    background-color: black;
+border: none;
+color: whitesmoke;
+font-size: 1rem;
+    width: 200px;
+    margin-top: 70px;
+    height: 40px;
+}
+
+.cartbutton  button a{
+    display: flex;
+  font-family: 'Jost', sans-serif;
+text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+}
+
+.sa{
+    margin-left: 10px;
+}
+
+.cartdetils .check{
+    width: 100%;
+    display: flex;
+    
+      align-items: center;
+      justify-content: center;
+background-color: #797e68;
+margin-top: 10px;
+border: none;
+    height: 39px;
+}
+
+.cartdetils .check a{
+    font-family: 'Jost', sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+color: whitesmoke;
+}
+
+.ras{
+    margin-left: 35px;
+}
+
+.cars h2{
+    font-family: 'Jost', sans-serif;
+font-size: 1.1rem;
+text-transform: uppercase;
+    color: grey;
+}
+
+.cars h4{
+  font-family: 'Jost', sans-serif;
+
+}

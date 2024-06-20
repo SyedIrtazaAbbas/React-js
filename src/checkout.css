@@ -1,0 +1,243 @@
+.cout{
+  margin-left: 310px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-family: 'Jost', sans-serif;
+
+  font-size: 5rem;
+  font-weight: 550;
+}
+
+
+
+
+
+
+.biiling
+{
+    align-items: start;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.billinput h3{
+    font-family: 'Jost', sans-serif;
+ color: gray;
+ font-weight: normal;
+ text-transform: capitalize;
+}
+
+.billinput input{
+  content: "";
+    border: 1px rgb(182, 178, 178) solid;
+    border-radius: 4px;
+    font-family: 'Jost', sans-serif;
+color: grey;
+display: flex;
+font-size: 1rem;
+text-align: start;
+    width: 600px;
+    padding-left: 12px;
+    height:  35px;
+    margin-bottom: 16px;
+    margin-top: 9px;
+}
+
+
+
+.rightbill h2{
+    font-family: 'Marcellus', serif;
+font-size: 2rem;
+margin-bottom: 30px;
+    font-weight: normal;
+    text-transform: capitalize; 
+}
+
+
+
+
+
+
+.drobtn{
+    background-color:transparent;
+    color: gray;
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    font-size: 1rem;
+    padding-left: 12px;
+
+    align-items: center;
+    border: 1px rgb(182, 178, 178) solid;
+
+    border-radius: 4px;
+    width: 600px;
+
+    height:  40px;
+    cursor: pointer;
+}
+
+
+
+
+
+.dropdown h3{
+    margin-bottom: 10px;
+}
+
+
+
+.dropdown{
+    margin-top: 19px;
+    margin-bottom: 25px;
+}
+
+
+.dropdowncontent{
+    display: none;
+  position: absolute;
+  min-width: 160px;
+  border: 1px rgb(182, 178, 178) solid;
+
+
+  border-radius: 5px;
+  color: gray;
+  top: 100%;
+
+  width: 600px;
+
+}
+
+
+  .dropdown {
+    position: relative;
+  }
+
+.dropdowncontent a{
+    background-color: white;
+    color: grey;
+    font-size: 1rem;
+    border-radius: 3px;
+ padding: 2px 12px;
+ align-items: center;
+    font-family: 'Jost', sans-serif;
+display: block;
+}
+
+.dropdowncontent a:hover{
+    background-color: rgb(69, 69, 255);
+  border-radius: 3px;
+    
+    color: white;
+}
+
+
+.drobtn:focus + .dropdowncontent {
+    display: block;
+  }
+
+
+  .leftbill{
+    padding-left: 50px;
+  }
+
+  .leftbill h2{
+    font-family: 'Marcellus', serif;
+    font-size: 2rem;
+    
+    margin-bottom: 30px;
+        font-weight: normal;
+        text-transform: capitalize; 
+  }
+
+ .bills{
+display: flex;
+align-items: center;
+
+ }
+
+ .billde h3{
+   margin-right:250px; 
+  font-family: 'Jost', sans-serif;
+  font-weight: bold;
+  color: grey;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+ }
+
+ .billde h4{
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    color: grey;
+ }
+.billde{
+    align-items: center;
+text-align: start;
+
+
+}
+.billdetils h1{
+    font-size: 1.9rem;
+  font-family: 'Jost', sans-serif;
+  text-transform: capitalize;
+  content: "";
+    border-bottom:1px solid rgb(211, 210, 210) ;
+    padding-bottom: 20px;
+  font-weight: normal;
+  
+}
+
+.bills{
+    content: "";
+    border-bottom:1px solid rgb(211, 210, 210) ;
+    height: 50px;
+
+}
+.billdetils h2{
+  font-weight: normal;
+  font-size: 1.4rem;
+
+    font-family: 'Jost', sans-serif;
+
+}
+ 
+.payments{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.payments h3{
+  text-transform: uppercase;
+  color: grey;
+  font-family: 'Jost', sans-serif;
+  font-size: 1.1rem;
+  margin-left: 5px;
+  font-weight: bolder;
+
+}
+.billpay p{
+  font-family: 'Jost', sans-serif;
+  margin-left: 19px;
+
+  color:black;
+}
+
+.billbut button a{
+  font-family: 'Jost', sans-serif;
+  color: white;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.billbut button{
+  margin-top: 30px;
+  width: 600px;
+  height: 50px;
+  background-color:black ;
+}
+

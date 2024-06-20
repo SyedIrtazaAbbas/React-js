@@ -1,0 +1,445 @@
+.banner{
+    display: flex;
+    padding: 20px 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 98px;
+   
+    height: 100%;
+   
+}
+
+.leftbanner img{
+  height: 650px;
+  margin-right: 60px;
+}
+
+.mySwiper{
+height: 1px;
+}
+
+
+
+.myswi{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: transparent;
+  color: #585858;
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  font-size: 1px;
+  border: 1px solid #585858;
+  border-radius: 90px;
+
+  cursor: pointer;
+}
+
+/* Add hover styles if needed */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color:black;
+  color: white;
+}
+
+
+
+
+.rightbanner h1{
+  font-size: 4.5rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  
+}
+
+.rightbanner p{
+  font-family: 'Jost', sans-serif;
+font-size: 1.1rem;
+font-weight: 500;
+padding-top: 30px;
+color: #686464bb;
+}
+
+.rightbanner button{
+  font-family: 'Jost', sans-serif;
+  margin-top: 35px;
+text-transform: uppercase;
+    background-color: transparent;
+    border: black 1px solid;
+    width: 170px;
+    height: 35px;
+    font-size: 16px;
+}
+.line{
+
+border-top: 1px rgb(228, 220, 220) solid;
+
+ margin-top: 55px;   
+}
+
+.bookap{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 90px;
+    
+}
+
+
+.bookap i{
+    font-size: 35px;
+    color: #686464bb;
+    background: transparent;
+}
+
+.bookap h1{
+    padding-top: 15px;
+font-family: 'Marcellus', serif;
+    font-weight: normal;
+    font-size: 1.8rem;
+    padding-bottom: 15px;
+}
+
+
+
+
+
+
+.bookap p{
+  font-family: 'Jost', sans-serif;
+letter-spacing: 1px;
+color: #686464bb;
+font-size: 1.06rem;
+}
+
+
+
+.gift{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+.twobanner{
+  display: flex;
+  padding-top: 150px;
+  justify-content: space-evenly;
+}
+
+.twobanner .cate .acc{
+  position: relative;
+}
+
+.cate .acc button{
+  position: absolute;
+  top: 90.3%;
+  left: 10%;
+  font-family: 'Jost', sans-serif;
+
+  text-transform: uppercase;
+
+  background-color: transparent;
+  color:whitesmoke;
+  border-left: 0px solid whitesmoke;;
+  border-right: 0px solid whitesmoke;
+  border-top: 0px solid whitesmoke;
+ border-bottom: 1px solid whitesmoke;
+  font-size: 1.0rem;
+ padding-top: 8px;
+  cursor: pointer;
+}
+
+
+.cate .acc h1{
+  position: absolute;
+  top: 85.3%;
+  left: 10%;
+
+
+  font-size: 1.8rem;
+  font-weight: normal;
+  
+  text-transform: uppercase;
+  color:whitesmoke;
+
+}
+
+.besti{
+  align-items: center;
+  display: flex;
+  padding-top: 126px;
+  justify-content: center;
+}
+
+.besti .coll{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.besti button{
+  font-family: 'Jost', sans-serif;
+
+  text-transform: uppercase;
+font-weight: normal;
+  background-color: transparent;
+  color:rgb(51, 50, 50);
+  border-left: 0px solid whitesmoke;;
+  border-right: 0px solid whitesmoke;
+  border-top: 0px solid whitesmoke;
+ border-bottom: 1px solid rgb(51, 50, 50);
+  font-size: 1.0rem;
+}
+
+
+.sell{
+  padding-top: 40px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 0.17fr); 
+  grid-template-rows: repeat(9, auto); 
+  gap: 10px; 
+
+}
+
+.sel{
+  justify-content: center;
+  align-items: center;
+display: flex;
+padding-top: 20px;
+
+}
+
+
+
+
+.colume img{
+ height: 440px;
+}
+
+
+
+.colume h1{
+
+  margin-top: 10px;
+text-transform: uppercase;
+font-size: 1.3rem;
+  font-weight: normal;
+}
+
+
+
+.colume div{
+  position: relative;
+  margin-top: 10px;
+  overflow: hidden;
+  width: 150px;
+  display: block;
+  transform: translateY(0%);
+  transition: inherit;
+}
+
+
+.colume div::before{
+  content: "$55.00";
+  position: absolute;
+  left: 5px;
+  transition-duration: 05.s;
+  padding: 0x;
+  font-family: 'Jost', sans-serif;
+  transition: 0.5s ease-out;
+  font-size: 1.1rem;
+}
+
+.colume div::after{
+  content: "Add to cart"; 
+  position: absolute;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  transition-duration: 05.s;
+  top: 15px;
+  transition: 0.5s ease-out;
+  left: 5px;
+  font-family: 'Jost', sans-serif;
+
+text-transform: uppercase;
+font-size: 1rem;
+
+
+}
+
+
+.colume:hover  div::after{
+  transform: translateY(-100%);
+
+}
+.colume:hover div::before{
+  transform: translateY(-100%);
+
+}
+
+
+
+
+
+
+
+
+
+.comtitle{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+font-size: 2rem;
+  align-items: center;
+}
+
+.com{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding-top:20px;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  color: gray;
+  font-size: 25px;
+}
+
+
+.com a{
+ display: flex;
+ justify-content: center;
+ font-size: 1.2rem;
+ margin-top: 10px;
+ text-transform: capitalize;
+}
+
+.comps{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.EffectCoverflow{
+  background-color: transparent;
+  color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+.blog{
+  display: flex;
+  justify-content: center;
+
+  
+}
+
+.post{
+  margin-top: 20px;
+}
+
+.post .imgblog{
+  margin-left: 30px;
+  padding-right: 30px;
+}
+
+
+
+
+.blogt{
+  margin-top: 90px;
+ font-size: 1rem;
+ display: flex;
+ justify-content: center;
+}
+
+.blogt h1{
+font-family: 'Marcellus', serif;
+padding-right: 1140px;
+font-size: 1.7rem;
+text-transform: uppercase;
+font-weight: normal;
+}
+
+.blogt a{
+font-family: 'Jost', sans-serif;
+border-bottom: 1px solid black;
+margin-top: 10px;
+text-transform: uppercase;
+font-weight: normal;
+cursor:  pointer;
+}
+
+
+
+
+
+
+.post h1{
+  font-size: 1.4rem;
+  font-family: 'Marcellus', serif;
+  font-weight: normal;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  letter-spacing: 1.1px;
+}
+
+.post h2{
+  font-family: 'Jost', sans-serif;
+ color: rgb(122, 121, 121);
+  font-weight: normal;
+  font-size: 1rem;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.post p{
+    font-family: 'Jost', sans-serif;
+    color: rgb(122, 121, 121);
+    font-weight: normal;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    letter-spacing: 1px;    
+    margin-bottom: 60px;
+}
+
+.institle{
+  display: flex;
+justify-content: center;
+}
+
+.inst{
+  
+  justify-items: center;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(6,210px);
+  grid-template-rows: repeat(6, auto); 
+  gap: 5px; 
+}
+
+.inst img{
+  height: 200px;
+}
+
